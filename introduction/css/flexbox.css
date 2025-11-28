@@ -1,8 +1,9 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  flex-wrap: wrap;
   background-color: LightBlue;
+  padding: 5px;
+  gap: 5px;
 }
  
 .container div {

@@ -2,14 +2,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: LightBlue;
-  padding: 500px;
+  padding: 50px;
   gap: 5px;
 }
  
 .container div {
   background-color: #f1f1f1;
-  width: 50px;
-  margin: 50px;
+  width: 500px;
+  margin: 500px;
   text-align: center;  
   font-size: 30px;
 }

@@ -1,5 +1,6 @@
 .container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   flex-wrap: wrap;
   background-color: LightBlue;
 }
@@ -8,7 +9,7 @@
   background-color: #f1f1f1;
   width: 1000px;
   margin: 1000px;
-  padding: 10000px;
+  padding: 1000px;
   text-align: center;  
   font-size: 30px;
 }

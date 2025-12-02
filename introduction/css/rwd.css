@@ -15,13 +15,13 @@ body {
     'main'
     'facts'
     'footer';
-  background-color: white;
+  background-color: green;
   gap: 10px;  
 }
  
 .header {
   grid-area: header;
-  background-color: purple;
+  background-color: lightblue;
   text-align: center;
   color: #ffffff;
 }

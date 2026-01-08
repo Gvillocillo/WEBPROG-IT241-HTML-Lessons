@@ -21,8 +21,8 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: var(--color-green);
-  --bs-body-bg: var(--color-yellow);
+  --bs-body-color: var(--color-yellow);
+  --bs-body-bg: var(--color-green);
   --bs-primary: var(--color-red);  
   --bs-border-width: 1px;
   --bs-border-style: solid;
@@ -63,6 +63,12 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.icon {
+  color: var(--color-yellow);
+  opacity: 0.9;
+  font-size: 1.5rem;
 }
 
 hr {
@@ -3589,6 +3595,16 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+}
+
+nav a {
+  font-family: Arial, sans-serif;
+  color: var(--color-yellow);
+  text-transform: uppercase;
+  margin-left: 1rem;
+}
+nav a:hover {
+  color: var(--color-red);
 }
 
 .nav-link {

@@ -15,7 +15,7 @@
   --color-yellow: #f4d03f;
   --color-red: #c0392b;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-font-monospace: "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
@@ -78,6 +78,15 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+}
+
+h1 {
+  font-family: "Brush Script MT", cursive;
+  color: var(--color-yellow);
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 2rem;
 }
 
 h1, .h1 {
@@ -2804,21 +2813,24 @@ textarea.form-control-lg {
   opacity: var(--bs-btn-disabled-opacity);
 }
 
-.btn-primary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #0d6efd;
-  --bs-btn-border-color: #0d6efd;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #0b5ed7;
-  --bs-btn-hover-border-color: #0a58ca;
-  --bs-btn-focus-shadow-rgb: 49, 132, 253;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #0a58ca;
-  --bs-btn-active-border-color: #0a53be;
+ .btn-primary {
+  --bs-btn-color: var(--color-yellow);               
+  --bs-btn-bg: var(--color-red);                     
+  --bs-btn-border-color: var(--color-red);          
+
+  --bs-btn-hover-color: var(--color-yellow);
+  --bs-btn-hover-bg: #a93226;                        
+  --bs-btn-hover-border-color: #a93226;
+
+  --bs-btn-focus-shadow-rgb: 192, 57, 43;            
+  --bs-btn-active-color: var(--color-yellow);
+  --bs-btn-active-bg: #a93226;
+  --bs-btn-active-border-color: #a93226;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #0d6efd;
-  --bs-btn-disabled-border-color: #0d6efd;
+
+  --bs-btn-disabled-color: var(--color-yellow);
+  --bs-btn-disabled-bg: var(--color-red);
+  --bs-btn-disabled-border-color: var(--color-red);
 }
 
 .btn-secondary {
